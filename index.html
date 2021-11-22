@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conecta con luz</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <canvas id="my-canvas" width="2000" height="200"></canvas>
+      <div class="container">
+         
+        
+        
+        <div class="navbar-header">
+         
+          <div class="navbar-brand">
+            <a href="index.html"><h1>CONECTA CON LUZ</h1></a>
+            
+          </div>
+        
+
+        </div>
+      </div>
+    </nav>
+
+</header>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/a.jpg" alt="conecta con luz" class="img-responsive ">
+    </div>
+
+ 
+  </div><!-- End of #main-content -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Horario de atencion:</span><br>
+          lunes a sabado: 11:15am - 10:00pm<br>
+          domingo cerrado
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright conecta con luz 2021</div>
+    </div>
+  </footer>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="matrixRain.js"></script>
+        <script>
+          //Iniciamos
+    
+          matrixRain({
+        background: '#ffc5e2',
+        color: '#616012',
+        canvas: '#my-canvas',
+        fontSize: 40,
+        speed: 200
+          }).run();
+        </script>
+</body>
+</html>
